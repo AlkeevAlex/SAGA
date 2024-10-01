@@ -37,12 +37,12 @@
 
 ##Установка
 
-kubectl apply -f ./db
-helm install postgres -f values.yaml bitnami/postgresql --set volumePermissions.enabled=true
-kubectl apply -f ./order-service
-kubectl apply -f ./item-service
-kubectl apply -f ./payment-service
-kubectl apply -f ./dtm
+- kubectl apply -f ./db
+- helm install postgres -f values.yaml bitnami/postgresql --set volumePermissions.enabled=true
+- kubectl apply -f ./order-service
+- kubectl apply -f ./item-service
+- kubectl apply -f ./payment-service
+- kubectl apply -f ./dtm
 ##Тестирование: сгенерированна коллекция postman (SAGA.postman_collection.json)
 
 ##Схема работы: приложена в файле SAGA.drawio.png
