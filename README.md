@@ -45,4 +45,4 @@
 6. kubectl apply -f ./dtm
 ##Тестирование: сгенерированна коллекция postman (SAGA.postman_collection.json)
 
-##Схема работы: приложена в файле SAGA.drawio.png
+##Схема работы: приложена в word файле "Распределенные транзакции"
